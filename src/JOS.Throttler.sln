@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30404.54
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JOS.Throttler.Benchmark", "JOS.Throttler.Benchmark\JOS.Throttler.Benchmark.csproj", "{57B8D3AF-B25A-4192-B0E8-12EDCCC751C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D170CC43-9C1F-44D1-A6C5-3F54C889409F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JOS.DummyApi", "JOS.DummyApi\JOS.DummyApi.csproj", "{63D85D19-2D62-412E-814D-1416E6CFE9DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57B8D3AF-B25A-4192-B0E8-12EDCCC751C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57B8D3AF-B25A-4192-B0E8-12EDCCC751C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57B8D3AF-B25A-4192-B0E8-12EDCCC751C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57B8D3AF-B25A-4192-B0E8-12EDCCC751C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63D85D19-2D62-412E-814D-1416E6CFE9DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63D85D19-2D62-412E-814D-1416E6CFE9DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63D85D19-2D62-412E-814D-1416E6CFE9DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63D85D19-2D62-412E-814D-1416E6CFE9DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{57B8D3AF-B25A-4192-B0E8-12EDCCC751C7} = {D170CC43-9C1F-44D1-A6C5-3F54C889409F}
+		{63D85D19-2D62-412E-814D-1416E6CFE9DD} = {D170CC43-9C1F-44D1-A6C5-3F54C889409F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {626C800A-5733-43F1-B7B1-16559974D231}
+	EndGlobalSection
+EndGlobal
