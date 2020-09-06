@@ -13,7 +13,7 @@ namespace JOS.Throttler.Benchmark
     public class ThrottlerBenchmark
     {
         public const int MaxConcurrency = 10;
-        private const int LocationsToCreate = 100000;
+        private const int LocationsToCreate = 10000;
         private IServiceProvider _serviceProvider;
         private static IReadOnlyList<string> _locations;
 
